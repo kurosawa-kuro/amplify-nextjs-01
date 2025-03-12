@@ -1,0 +1,35 @@
+{
+  "name": "amplify-nextjs-01",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "aws-amplify": "^6.13.4",
+    "next": "15.2.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.13.0-beta.20",
+    "@aws-amplify/backend-cli": "^0.12.0-beta.22",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "aws-cdk": "^2.1003.0",
+    "aws-cdk-lib": "^2.183.0",
+    "constructs": "^10.4.2",
+    "esbuild": "^0.25.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.2",
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
