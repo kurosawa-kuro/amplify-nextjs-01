@@ -3,32 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pipeline-deploy": "npx amplify pipeline-deploy --branch $AWS_BRANCH --app-id $AWS_APP_ID"
   },
   "dependencies": {
     "aws-amplify": "^6.13.4",
-    "next": "15.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "14.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.13.0-beta.20",
     "@aws-amplify/backend-cli": "^0.12.0-beta.22",
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
+    "@eslint/eslintrc": "^3.0.0",
     "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "aws-cdk": "^2.1003.0",
     "aws-cdk-lib": "^2.183.0",
     "constructs": "^10.4.2",
     "esbuild": "^0.25.1",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.2",
-    "tailwindcss": "^4",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.1.3",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
   }
